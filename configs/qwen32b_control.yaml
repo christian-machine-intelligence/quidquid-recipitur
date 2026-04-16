@@ -1,0 +1,10 @@
+# ICMI-008 replication: Qwen2.5-32B-Instruct, Wikipedia control injection
+name: "qwen32b-control"
+model: "Qwen/Qwen2.5-32B-Instruct"
+virtues: [prudence, justice, courage, temperance]
+variants: [ratio]
+runs: 5
+temperature: 0.7
+seed: 42
+concurrency: 1
+detailed: true
